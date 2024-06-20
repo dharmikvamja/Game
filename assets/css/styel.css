@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Otterco';
+    src: url('../font/Otterco-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Otterco';
+    src: url('../font/Otterco-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Otterco';
+    src: url('../font/Otterco-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Otterco';
+    src: url('../font/Otterco-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Otterco';
+    src: url('../font/Otterco-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    font-family: 'Otterco';
+    max-width: 576px;
+    margin: 0 auto;
+}
+.min-h{
+    min-height: 100vh;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0;
+}
+ p{
+    margin-bottom: 0;
+ }
+/* Login */
+ .title_form h1{
+    margin-bottom: 5px;
+ }
+
+.login_bg_img {
+    background-image: url('../image/login_bg.svg');
+    padding:0px 16px;
+    padding-top: 30px;
+    padding-bottom: 31px; 
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.vector_img{
+    padding-top: 52px; 
+}
+.bg_yellow{
+    background-color: #FFCB31;
+
+}
+.border_rounded{
+    border-radius: 0px 0px 30px 30px;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding:0px 16px;
+    padding-top: 40px;
+    padding-bottom: 47px;
+    background: white;
+    border-bottom: 5px solid #E4E4E4;
+    border-radius: 0px 0px 30px 30px;
+
+}
+.login_form label{
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+.login_form input{
+        border-radius: 10px;
+    padding: 8px 12px;
+    border: 0;
+    outline: 2px solid #321c1c44;
+}
+.forgot{
+    font-size: 22px;
+    padding-top: 16px;
+}
+.login_register{
+    padding: 40px 16px;
+}
+.login_register button{
+    padding: 17px 0px; 
+    border-radius: 12px;
+}
+.login_btn{
+    background-color: #3BAFFF;
+    border: none;
+    border-bottom: 5px solid #007acd; 
+}
+.register_btn{
+    background-color: #FF8811;
+    border: none;
+    border-bottom: 5px solid #F17100;
+}
+/* Register Page */
+.register_bg_img{
+    padding:0px 16px;
+    padding-top: 30px;
+    padding-bottom: 81px;
+    background-image: url('../image/register_bg.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.checkbox input{
+    border :0;
+    outline : 0;
+    margin-right: 15px;
+}
