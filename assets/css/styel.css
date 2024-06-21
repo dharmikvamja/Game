@@ -1,175 +1,225 @@
 @font-face {
-    font-family: 'Otterco';
-    src: url('../font/Otterco-SemiBold.otf') format('opentype');
+    font-family: "Otterco";
+    src: url("../font/Otterco-SemiBold.otf") format("opentype");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Otterco';
-    src: url('../font/Otterco-Light.otf') format('opentype');
+    font-family: "Otterco";
+    src: url("../font/Otterco-Light.otf") format("opentype");
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Otterco';
-    src: url('../font/Otterco-Regular.otf') format('opentype');
+    font-family: "Otterco";
+    src: url("../font/Otterco-Regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Otterco';
-    src: url('../font/Otterco-Medium.otf') format('opentype');
+    font-family: "Otterco";
+    src: url("../font/Otterco-Medium.otf") format("opentype");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Otterco';
-    src: url('../font/Otterco-Bold.otf') format('opentype');
+    font-family: "Otterco";
+    src: url("../font/Otterco-Bold.otf") format("opentype");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
-
-body{
-    font-family: 'Otterco';
+body {
+    font-family: "Otterco";
     max-width: 576px;
     margin: 0 auto;
 }
 ::-webkit-scrollbar {
-    width: 0; 
+    width: 0;
     background: transparent;
 }
 
-.min-h{
+.min-h {
     min-height: 100vh;
 }
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0;
 }
- p{
+p {
     margin-bottom: 0;
- }
+}
 /* Login */
- .title_form h1{
+.title_form h1 {
     margin-bottom: 5px;
- }
+}
 
 .login_bg_img {
-    background-image: url('../image/login_bg.svg');
-    padding:0px 16px;
+    background-image: url("../image/login_bg.svg");
+    padding: 0px 16px;
     padding-top: 28px;
-    padding-bottom: 28px; 
+    padding-bottom: 28px;
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
 }
-.vector_img{
-    padding-top: 40px; 
+.vector_img {
+    padding-top: 40px;
 }
-.bg_yellow{
-    background-color: #FFCB31;
-
+.bg_yellow {
+    background-color: #ffcb31;
 }
-.border_rounded{
+.border_rounded {
     border-radius: 0px 0px 30px 30px;
 }
-.login_form{
+.login_form {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    padding:0px 16px;
+    padding: 0px 16px;
     padding-top: 40px;
     padding-bottom: 38px;
     background: white;
-    border-bottom: 5px solid #E4E4E4;
+    border-bottom: 5px solid #e4e4e4;
     border-radius: 0px 0px 30px 30px;
-
 }
-.login_form label{
-    font-size: 20px; 
-    
+.login_form label {
+    font-size: 20px;
 }
-.login_form input{
-        border-radius: 10px;
+.login_form input {
+    border-radius: 10px;
     padding: 8px 12px;
     border: 0;
     outline: 2px solid rgba(50, 28, 28, 10%);
-    opacity: 10;
 }
-.forgot{
+.login_form input:focus,
+.login_form::before {
+    outline: 2px solid rgba(50, 28, 28, 10%);
+    box-shadow: none !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.forgot {
     font-size: 18px;
     padding-top: 16px;
     color: black;
 }
-.login_register{
+.login_register {
     padding: 40px 16px;
 }
- 
-.btns{
-    padding: 17px 0px; 
+
+.btns {
+    padding: 17px 0px;
     border-radius: 12px;
 }
-.login_btn{
-    background-color: #3BAFFF;
+.login_btn {
+    background-color: #3bafff;
     border: none;
-    border-bottom: 5px solid #007acd; 
+    border-bottom: 5px solid #007acd;
 }
-.register_btn{
-    background-color: #FF8811;
+.register_btn {
+    background-color: #ff8811;
     border: none;
-    border-bottom: 5px solid #F17100;
+    border-bottom: 5px solid #f17100;
 }
 /* Register Page */
-.row_gap_form{
+.row_gap_form {
     row-gap: 23px;
 }
- 
-.register_bg_img{
-    padding:0px 16px;
+
+.register_bg_img {
+    padding: 0px 16px;
     padding-top: 27px;
     padding-bottom: 35px;
-    background-image: url('../image/register_bg.svg');
+    background-image: url("../image/register_bg.svg");
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
 }
-.register_form{
+.register_form {
     padding-top: 30px;
     padding-bottom: 35px;
 }
-.checkbox input{
-    border :0;
-    outline : 0;
-    margin-right: 15px;
+.checkbox label {
+    font-size: 16px;
 }
-.register_part{
+.checkbox input {
+    position: relative;
+    border: 3px solid rgba(50, 28, 28, 10%);
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+    line-height: 0;
+    margin: 0 0.6em 0 0;
+    outline: 0;
+    padding: 0 !important;
+    vertical-align: text-top;
+    height: 20px;
+    width: 20px;
+    -webkit-appearance: none;
+}
+.checkbox input[type="checkbox"]:checked {
+    background-color: #000000;
+    opacity: 1;
+    border-color: rgba(50, 28, 28, 10%);
+}
+.checkbox input[type="checkbox"]:focus,
+.checkbox[type="checkbox"]::before {
+    border-color: rgba(50, 28, 28, 10%);
+    box-shadow: none !important;
+    outline: none;
+}
+.checkbox input[type="checkbox"]:before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    width: 4px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    margin: -1px 0px 0 -1px;
+    transform: rotate(45deg) translate(-50%, -50%);
+    z-index: 2;
+}
+
+.register_part {
     padding: 30px 16px;
 }
 /* Forgot */
 
-.forgot_bg_img{
-    padding:0px 16px;
+.forgot_bg_img {
+    padding: 0px 16px;
     padding-top: 30px;
     padding-bottom: 81px;
-    background-image: url('../image/forgot_bg.svg');
+    background-image: url("../image/forgot_bg.svg");
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
 }
 /* Otp */
-.otp_box{
+.otp_box {
     max-width: 80px;
     width: 100%;
 }
