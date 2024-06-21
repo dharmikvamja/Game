@@ -44,6 +44,11 @@ body{
     max-width: 576px;
     margin: 0 auto;
 }
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;
+}
+
 .min-h{
     min-height: 100vh;
 }
@@ -91,7 +96,7 @@ h1,h2,h3,h4,h5,h6{
 
 }
 .login_form label{
-    font-size: 22px; 
+    font-size: 20px; 
     
 }
 .login_form input{
