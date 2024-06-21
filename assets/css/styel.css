@@ -103,7 +103,8 @@ h1,h2,h3,h4,h5,h6{
         border-radius: 10px;
     padding: 8px 12px;
     border: 0;
-    outline: 2px solid #321c1c44;
+    outline: 2px solid rgba(50, 28, 28, 10%);
+    opacity: 10;
 }
 .forgot{
     font-size: 18px;
