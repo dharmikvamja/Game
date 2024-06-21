@@ -61,15 +61,15 @@ h1,h2,h3,h4,h5,h6{
 .login_bg_img {
     background-image: url('../image/login_bg.svg');
     padding:0px 16px;
-    padding-top: 30px;
-    padding-bottom: 31px; 
+    padding-top: 28px;
+    padding-bottom: 28px; 
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
 }
 .vector_img{
-    padding-top: 52px; 
+    padding-top: 40px; 
 }
 .bg_yellow{
     background-color: #FFCB31;
@@ -84,15 +84,14 @@ h1,h2,h3,h4,h5,h6{
     row-gap: 30px;
     padding:0px 16px;
     padding-top: 40px;
-    padding-bottom: 47px;
+    padding-bottom: 38px;
     background: white;
     border-bottom: 5px solid #E4E4E4;
     border-radius: 0px 0px 30px 30px;
 
 }
 .login_form label{
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 22px; 
     
 }
 .login_form input{
@@ -102,14 +101,15 @@ h1,h2,h3,h4,h5,h6{
     outline: 2px solid #321c1c44;
 }
 .forgot{
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 16px;
     color: black;
 }
 .login_register{
     padding: 40px 16px;
 }
-.login_register button{
+ 
+.btns{
     padding: 17px 0px; 
     border-radius: 12px;
 }
@@ -124,18 +124,46 @@ h1,h2,h3,h4,h5,h6{
     border-bottom: 5px solid #F17100;
 }
 /* Register Page */
+.row_gap_form{
+    row-gap: 23px;
+}
+ 
 .register_bg_img{
     padding:0px 16px;
-    padding-top: 30px;
-    padding-bottom: 81px;
+    padding-top: 27px;
+    padding-bottom: 35px;
     background-image: url('../image/register_bg.svg');
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
 }
+.register_form{
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
 .checkbox input{
     border :0;
     outline : 0;
     margin-right: 15px;
+}
+.register_part{
+    padding: 30px 16px;
+}
+/* Forgot */
+
+.forgot_bg_img{
+    padding:0px 16px;
+    padding-top: 30px;
+    padding-bottom: 81px;
+    background-image: url('../image/forgot_bg.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+/* Otp */
+.otp_box{
+    max-width: 80px;
+    width: 100%;
 }
