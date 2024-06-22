@@ -78,7 +78,7 @@ p {
     background-size: cover;
 }
 .vector_img {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .bg_yellow {
     background-color: #ffcb31;
@@ -89,10 +89,8 @@ p {
 .login_form {
     display: flex;
     flex-direction: column;
-    row-gap: 30px;
-    padding: 0px 16px;
-    padding-top: 40px;
-    padding-bottom: 38px;
+    row-gap: 25px;
+    padding: 38px 16px; 
     background: white;
     border-bottom: 5px solid #e4e4e4;
     border-radius: 0px 0px 30px 30px;
@@ -103,15 +101,16 @@ p {
 .iti--allow-dropdown{
     width: 100%;
 }
-.login_form input {
-    border-radius: 10px;
-    padding: 8px 12px;
-    border: 0;
-    outline: 2px solid rgba(50, 28, 28, 10%);
+  .login_form input { 
+    padding: 8px 12px; 
+}  
+ 
+.login_form .form-control:focus{
+    border-color: rgba(50, 28, 28, 10%);
 }
 .login_form input:focus,
 .login_form::before {
-    outline: 2px solid rgba(50, 28, 28, 10%);
+    /* outline: 2px solid rgba(50, 28, 28, 10%); */
     box-shadow: none !important;
 }
 input::-webkit-outer-spin-button,
@@ -214,12 +213,19 @@ input[type="number"] {
 .forgot_bg_img {
     padding: 0px 16px;
     padding-top: 30px;
-    padding-bottom: 81px;
+    padding-bottom: 35px;
     background-image: url("../image/forgot_bg.svg");
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+}
+.eye_input{
+    height: 100%;
+    position: absolute;
+    right: 15px;
+    transform: translateY(10px);
+    top: 0;
 }
 /* Otp */
 .otp_box {
