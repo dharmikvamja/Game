@@ -255,7 +255,6 @@ input[type="number"] {
 }
 .bell_icon,.download_icon{
     height: 22px;
-
 }
 .banner{
     padding-top: 110px;
@@ -267,6 +266,7 @@ input[type="number"] {
 }
 .bg_cream{
     background-color: #FBF7EF;
+    padding-bottom: 95px;
 }
 .border_dotted{
      background-image: url('../image/dotborder_box.svg');
@@ -310,4 +310,22 @@ background: linear-gradient(313deg, rgba(240,111,229,1) 53%, rgba(239,112,231,1)
 .yellow_gradint{
     background: rgb(252,221,70);
 background: linear-gradient(313deg, rgba(252,221,70,1) 31%, rgba(251,63,63,1) 100%);
+}
+/* Footer Menu */
+.foter_menu{
+    background: url('../image/Footer_bg.svg');
+    background-size: cover;
+    width: 100%;
+    max-width: 576px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.daimond{
+    top: -1.7rem;
+    left: 1px;
+    right: 0;
+    width: min-content;
+}
+.center_item{
+    width: 50px;
 }
