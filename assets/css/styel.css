@@ -62,9 +62,9 @@ h6 {
 p {
     margin-bottom: 0;
 }
- a{
+a {
     text-decoration: none;
- }
+}
 /* Login */
 .title_form h1 {
     margin-bottom: 5px;
@@ -235,97 +235,248 @@ input[type="number"] {
     max-width: 80px;
     width: 100%;
 }
-/* Home Page */ 
-.blue_bg{
+/* Home Page */
+.blue_bg {
     max-width: 576px;
 }
-.menu{
+.menu {
     width: 100%;
     max-width: 576px;
     z-index: 99;
 }
-.header{
+.header {
     padding-left: 16px;
     padding-right: 16px;
     border-bottom: 8px solid #e4e4e4;
     border-radius: 0 0 27px 27px;
 }
 .logo {
-     height: 26px;
+    height: 26px;
 }
-.bell_icon,.download_icon{
+.bell_icon,
+.download_icon {
     height: 22px;
 }
-.banner{
+.banner {
     padding-top: 110px;
 }
-.border_round_banner{
+.border_round_banner {
     border-bottom: 8px solid #e4e4e4;
-    border-radius:  20px;
+    border-radius: 20px;
     overflow: hidden;
 }
-.bg_cream{
-    background-color: #FBF7EF;
+.bg_cream {
+    background-color: #fbf7ef;
     padding-bottom: 95px;
 }
-.border_dotted{
-     background-image: url('../image/dotborder_box.svg');
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-position: center;
+.border_dotted {
+    background-image: url("../image/dotborder_box.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.box_img{
+.box_img {
     min-height: 50px;
 }
-.bg_item{
-    background-color: #F5EEEC;
+.bg_item {
+    background-color: #f5eeec;
 }
-.item_box{
+.item_box {
     border-bottom: 8px solid #e4e4e4;
-    border-radius:  20px; 
+    border-radius: 20px;
 }
-.box{
+.box {
     width: calc(33.33% - 10px);
-} 
-.wining_card{
-    min-height: 130px;
-    padding : 24px 20px;
 }
-.blue_gradiant{ 
-    background: rgb(102,49,255);
-    background: linear-gradient(166deg, rgba(102,49,255,1) 0%, rgba(164,49,255,1) 8%, rgba(238,137,255,1) 95%);
+.wining_card {
+    padding: 20px 14px;
 }
-.shyan_gradiant{
-    background: rgb(53,202,255);
-background: linear-gradient(313deg, rgba(53,202,255,1) 3%, rgba(53,209,255,1) 6%, rgba(60,132,255,1) 95%);
+.blue_gradiant {
+    background: rgb(102, 49, 255);
+    background: linear-gradient(
+        166deg,
+        rgba(102, 49, 255, 1) 0%,
+        rgba(164, 49, 255, 1) 8%,
+        rgba(238, 137, 255, 1) 95%
+    );
 }
-.green_blue_gradiant{
-    background: rgb(88,223,215);
-background: linear-gradient(313deg, rgba(88,223,215,1) 3%, rgba(84,227,219,1) 6%, rgba(115,248,174,1) 96%);
+.shyan_gradiant {
+    background: rgb(53, 202, 255);
+    background: linear-gradient(
+        313deg,
+        rgba(53, 202, 255, 1) 3%,
+        rgba(53, 209, 255, 1) 6%,
+        rgba(60, 132, 255, 1) 95%
+    );
 }
-.pink_gradiant{
-    background: rgb(240,111,229);
-background: linear-gradient(313deg, rgba(240,111,229,1) 53%, rgba(239,112,231,1) 59%, rgba(251,85,149,1) 100%);
+.green_blue_gradiant {
+    background: rgb(88, 223, 215);
+    background: linear-gradient(
+        313deg,
+        rgba(88, 223, 215, 1) 3%,
+        rgba(84, 227, 219, 1) 6%,
+        rgba(115, 248, 174, 1) 96%
+    );
 }
-.yellow_gradint{
-    background: rgb(252,221,70);
-background: linear-gradient(313deg, rgba(252,221,70,1) 31%, rgba(251,63,63,1) 100%);
+.pink_gradiant {
+    background: rgb(240, 111, 229);
+    background: linear-gradient(
+        313deg,
+        rgba(240, 111, 229, 1) 53%,
+        rgba(239, 112, 231, 1) 59%,
+        rgba(251, 85, 149, 1) 100%
+    );
+}
+.yellow_gradint {
+    background: rgb(252, 221, 70);
+    background: linear-gradient(
+        313deg,
+        rgba(252, 221, 70, 1) 31%,
+        rgba(251, 63, 63, 1) 100%
+    );
 }
 /* Footer Menu */
-.foter_menu{
-    background: url('../image/Footer_bg.svg');
+.foter_menu {
+    background: url("../image/Footer_bg.svg");
     background-size: cover;
     width: 100%;
     max-width: 576px;
     background-repeat: no-repeat;
     background-position: center;
 }
-.daimond{
+.daimond {
     top: -1.7rem;
     left: 1px;
     right: 0;
     width: min-content;
 }
-.center_item{
+.center_item {
     width: 50px;
+}
+.card_title_conatin{
+    padding-right: 110px;
+}
+.pasa_img {
+    margin-top: -40px;
+    position: absolute;
+    right: 10px;
+}
+.pasa_img img {
+    height: 113px;
+}
+.green_tick img {
+    height: 19px;
+}
+.profile_img img {
+    height: 50px;
+}
+.amount_lable{
+    font-size: 14px;
+}
+.num_win p  {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.712);
+}
+.winamount_lable {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.712);
+}
+.text-gray {
+    color: #828282;
+}
+.text-bluelight {
+    color: #515874;
+}
+.text_darkred {
+    color: #8d3232;
+}
+.text_darkyellow {
+    color: #8a4b22;
+}
+.winer_chart_rank {
+    margin-top: 105px;
+}
+.chart_winer {
+    background: url("https://9987up.co/assets/png/DailyProfitRankStage-ce00a6d6.png")
+        no-repeat center center/100% 100%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.rank_num {
+    width: 25px;
+    height: 25px;
+    border: 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+}
+.border_bluelight {
+    border-color: #515874;
+}
+.bg_bluelight {
+    background-color: #515874;
+}
+.border_redlight {
+    border-color: #8d3232;
+}
+.bg_redlight {
+    background-color: #ff6464;
+}
+.border_darkbrown {
+    border-color: #8a4b22;
+}
+.bg_darkbrown {
+    background-color: #f49355;
+}
+.bg_skyblue {
+    background-color: #a3acd0;
+}
+.secnd_profile_chart {
+    top: -30px;
+}
+.first_profile_chart {
+    top: -35px;
+}
+.first_profile_lable {
+    top: -25px;
+}
+.third_profile_chart {
+    top: -30px;
+}
+.crown {
+    top: -4px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.win_name {
+    font-size: 14px;
+}
+.text-darkwarning {
+    color: #ff8811;
+}
+.border_gray {
+    border-color: rgba(130, 130, 130, 10%);
+}
+.list_otherrank {
+    position: relative;
+}
+.polygon{
+    position: relative;
+
+}
+.polygon::after {
+    content: url('../image/polygon.png');
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translate(-50%, -50%) ; 
+    /* width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px;
+    border-color: #ffffff transparent transparent #ffffff;
+    float: left; 
+    border-radius: 10px 0px 0px 0px;  */
+    
 }
