@@ -83,6 +83,9 @@ a {
 .bg_light_red {
     background-color: #fa5c5b;
 }
+.text_light_red{
+    color: #FA5C5B;
+}
 .border_light_red {
     border-color: #ef4444;
 }
@@ -130,6 +133,9 @@ a {
 }
 .bg_secondary_light{
     background-color: #F2F0EF;
+}
+.bg_warning_dark{
+    background-color: #F17100;
 }
 /* Login */
 .title_form h1 {
@@ -820,4 +826,15 @@ input[type="number"] {
 }
 .gap_12p{
     gap: 12px;
+}
+select:focus {
+    outline: none;
+}
+.custom-select { 
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    background: white url('../image/select_.svg') no-repeat right 10px center;
+    background-size: 12px 12px;
+    font-size: 16px;
+    color: #333;
 }
