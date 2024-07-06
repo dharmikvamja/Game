@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <!-- Country Code Js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
 </head>
 
 <body>
@@ -44,14 +45,14 @@
                             </svg>
                             <label for="" class="fw-bold mb-0">Password</label>
                         </div>
-                        <div class="  mb-3 position-relative"> 
-                            <input name="password_input" placeholder="******asd" class="form-control" type="password" id="first_password_input">
-                            <span id="toggle_button" onclick="toggle('first_password_input')" class="eye_input">  
-                                <svg    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="15" height="15">
+                        <div class="mb-3 position-relative">
+                            <input name="password_input" placeholder="******asd" class="form-control" type="password" id="first_password_input" />
+                            <span id="toggle_button" onclick="toggle('first_password_input')" class="eye_input">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="15" height="15">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg> 
-                            </span>  
+                                </svg>
+                            </span>
                         </div>
                     </div>
                     <div>
@@ -62,14 +63,14 @@
                             </svg>
                             <label for="" class="fw-bold mb-0">Confirm Password</label>
                         </div>
-                        <div class="  mb-3 position-relative"> 
-                            <input name="password_input" placeholder="******asd" class="form-control" type="password"  id="confirm_password_input">
-                            <span id="toggle_button" onclick="toggle('confirm_password_input_toggle')"  class="eye_input">  
-                                <svg    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="15" height="15">
+                        <div class="mb-3 position-relative">
+                            <input name="password_input" placeholder="******asd" class="form-control" type="password" id="confirm_password_input" />
+                            <span id="toggle_button" onclick="toggle('confirm_password_input_toggle')" class="eye_input">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="15" height="15">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg> 
-                            </span>  
+                                </svg>
+                            </span>
                         </div>
                     </div>
                     <div>
@@ -83,8 +84,8 @@
                         <input type="text" class="w-100 form-control" placeholder="65659989" />
                     </div>
                     <div class="mb-3 form-check checkbox">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">I have read and agree <a href="#" class="text-danger ">(Privacy Agreement)</a> </label>
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                        <label class="form-check-label" for="exampleCheck1">I have read and agree <a href="#" class="text-danger">(Privacy Agreement)</a> </label>
                     </div>
                 </div>
             </div>
@@ -97,8 +98,11 @@
         </section>
     </div>
     <!-- End Register Form -->
+
+    <!-- Country Code Js -->
+    <script src="assets/js/countrycode.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/custom.js"></script>
 </body>
-<!-- Custom Js -->
-<script src="assets/js/custom.js"></script>
 
 </html>

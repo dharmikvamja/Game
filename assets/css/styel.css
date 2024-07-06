@@ -876,7 +876,7 @@ select:focus {
     color: #321c1c;
   }
   .failed{
-    border: 2px solid #ef4444
+    border: 1px solid #ef4444d2
   }
   .textred_light{
     color: #fa5c5b;
