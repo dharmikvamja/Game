@@ -1,12 +1,4 @@
- 
-
-
-
-
-
-
-
-
+  
 // Function to open the modal based on color
 function openModal(color) {
     var modalId = `modal${color.charAt(0).toUpperCase() + color.slice(1)}`; // Construct modal ID
@@ -23,14 +15,14 @@ function closeModal() {
 }
 
 // Close the modal when clicking on the overlay
-document.addEventListener('click', function(event) {
-    var modals = document.querySelectorAll('.overlay');
-    modals.forEach(function(modal) {
-        if (modal.style.display === "flex" && !modal.contains(event.target)) {
-            modal.style.display = "none";
-        }
-    });
-});
+// document.addEventListener('click', function(event) {
+//     var modals = document.querySelectorAll('.overlay');
+//     modals.forEach(function(modal) {
+//         if (modal.style.display === "flex" && !modal.contains(event.target)) {
+//             modal.style.display = "none";
+//         }
+//     });
+// });
 
 // Close the modal when pressing the ESC key
 document.addEventListener('keydown', function(event) {
