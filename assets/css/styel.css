@@ -884,3 +884,32 @@ select:focus {
   .text_sucess_light{
     color: #12b45f;
   }
+  .bank_icon{
+    height: 25px;
+  }
+  .arrow_right{
+    height: 20px;
+  }
+  .enter_amount input:focus{
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+  .upi_img{
+    height: 35px;
+  }
+  .bg_orange_gradiant{
+    background-color: #ff9804 !important;
+    background-image: linear-gradient(90deg, #FF9A02 0%, #E67302 100%) !important;
+    
+  }
+  .hr_line_30{
+    width: 1px;
+    height: 25px;
+    background-color: #b3b3b3;
+  }
+  .amount_deposite::placeholder, .enter_amount input::placeholder {
+    color: rgb(173, 171, 171);
+    opacity: 0.7; /* Firefox */
+    font-size: 14px;
+  }
